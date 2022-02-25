@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div class="launcher">
+
+      <span>My</span>
+      <span>Tasks</span>
+    </div> -->
+
+    <div class="container">
+      <form>
+        <input
+          type="text"
+          name="task-inp"
+          id="task"
+          placeholder="اكتب المهمة..."
+        />
+        <input type="submit" name="button" id="send" value="أدخِل" />
+      </form>
+      <div class="tasks">
+        <h2 class="title ongoing">
+          المهام الحالية : <span class="num">(0)</span>
+        </h2>
+        <div class="current">
+        </div>
+        <h2 class="title completed">
+          المهام المنتهية : <span class="num">(0)</span>
+        </h2>
+        <div class="ended">
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
